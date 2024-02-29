@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+    /* font-family: "Roboto", sans-serif; */
+    /* font-family: "Oswald",sans-serif; */
+
+  /* font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal; */
+
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body{
+    position: relative;
+}
+body .body-button{
+    height: 50px;
+    width: 45px;
+    background-color: #F77D0A;
+    right: 10px;
+    bottom: 20px;
+    position: fixed;
+    cursor: pointer;
+}
+body .body-button a{
+text-decoration: none;
+color: white;
+transition: .3s ease-in-out;
+}
+body .body-button:hover a{
+    color: #2B2E4A;
+    }
+
+@media only screen and (max-width: 600px) {
+    
+  }
+.first-nav{
+    background-color: #1c1e32;
+    padding-top: 20px;
+    height: 15vh;
+    width: 100%;
+    color: #8486A0;
+    display: flex;
+    justify-content: space-between;
+}
+.icons-pointer{
+    cursor: pointer;
+}
+.icons-pointer:hover{
+    color: #ccc;
+}
+.second-nav{
+    background-color: #2B2E4A;
+    margin-top: -40px;
+}
+.nav-color{
+    color: #F4F5F8;
+}
+.nav-color:hover{
+    color: #F77D0A;
+}
+.nav-color:active{
+    color: #F77D0A;
+}
+.third-nav{
+    background-color: white;
+}
+
+
+
+.first-hover-box{
+    padding: 30px 0;
+    background-color: #f4f5f8;
+    transition: .5s;
+}
+.first-hover-box:hover{
+background-color: #1c1e32;
+
+}
+.h1-child-hov h1:hover{
+    color: #2b2e4a;
+}
+.h1-child-hov h1{
+    font-size: 6rem;
+    color: #fff;
+}
+.p-child-hov p{
+    font-size: 1.5rem;
+     font-weight: 500;
+      color: #1c1e32;
+}
+.p-child-hov p:hover{
+    font-size: 1.5rem;
+     font-weight: 500;
+      color: #fff;
+}
+
+
+.bg-banner {
+    background: linear-gradient(rgba(28,30,50,.9),rgba(28,30,50,.9)),url('https://demo.htmlcodex.com/1585/car-rental-html-template/img/bg-banner.jpg');
+    background-attachment: fixed;
+}
+
+.rent-item{
+    padding: 30px;
+    text-align: center;
+    background-color: #f4f5f8;
+    transition: .5s;
+}
+.rent-item:hover{
+    background-color: #2b2e4a;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.rent-item img {
+    vertical-align: middle;
+    border-style: none;
+}
+.rent-item .text-primary{
+color: #F77D0A !important;
+}
+
+.btn-prim {
+    color: #fff;
+    background-color: #F77D0A;
+    border-color: #F77D0A;
+    border-radius: 0;
+    transition: .5s;
+}
+.btn-prim:hover {
+    color: #fff;
+    background-color: #F77D0A;
+    border-color: #F77D0A;
+    border-radius: 0;
+}
+.three-grey{
+    color: #8486A0;
+}
+
+
+.bg-secondary {
+    background-color: #2B2E4A !important;
+}
+.bg-dark{
+    background-color: #1C1E32 !important;
+
+}
+
+
+.form-group {
+    margin-bottom: 1rem;
+}
+.form-group .p-4 {
+    padding: 1rem !important;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #fbbf85;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(247,125,10,0.25);
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    /* height: calc(1.5em + 0.75rem + 2px); */
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0;
+    transition: border-color 0.3s ease-in-out,box-shadow 0.3s ease-in-out;
+}
+
+
+.bg-secondary .text-primary {
+    color: #F77D0A !important;
+}
+
+
+.display-1 {
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #F77D0A;
+    font-family: "Oswald",sans-serif;
+}
+.display-4 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #2B2E4A;
+    font-family: "Oswald",sans-serif; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* font-family: "Oswald",sans-serif; */
+
+
+
+
+
+
+
+
+
+
+
+
+/* style="font-size: 1.5rem; font-weight: 500; color: #1c1e32;" */
+/* style="font-size: 6rem; color: #fff;" */
+
+/* #2b2e4a */
+/* #1c1e32 */
+
+
+
+
+
+
+
+
+
+
+
